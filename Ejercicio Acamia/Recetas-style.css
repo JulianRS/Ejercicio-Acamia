@@ -1,0 +1,129 @@
+body{
+background-color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px;
+color: #000000;
+margin: 0px;
+padding: 0px;
+}
+#encabezado{
+    background: #b1eb55;
+    padding: 20px 50px;
+
+}
+#navegacion{
+    background-color: #71ac14;
+    margin-bottom: 0;
+    padding:20px; 
+
+}
+
+
+#navegacion li{
+    list-style-type: none;
+    margin: 5px;
+    padding: 3px;
+    background: #517e09;
+}
+
+#navegacion li.actual{
+    background: #f5d523;
+}
+
+#navegacion li a.actual{
+    color: #517e09;
+}
+#navegacion li a:hover{
+    font-weight: bold
+}
+
+#navegacion li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#contenido_principal{
+    margin-top:0;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    border-radius: 5px;
+
+}
+#contenido_principal img{
+    margin-left: 15px;
+}
+
+h4{
+    border-bottom: 3px solid #162400;
+}
+
+
+
+
+
+
+/*h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 1000;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+    letter-spacing: 3px;
+    word-spacing: 20px;
+    line-height: 55px;
+    text-decoration: underline;
+   
+    margin-top: 0px;
+    padding: 50px 0px 50px 0px;
+    background-color: blue;
+    width: 800px;
+    border: 5px rgb(2, 59, 100) solid;
+    border-radius: 10px;
+    text
+}
+
+ul li a{
+    padding: 1px 10px;
+    background: #cccccc;
+    border: 2px solid  #888888;
+}
+
+
+ul li a:visited{
+color: green;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+ }
+
+ ul li a:active {
+    font-weight: bold;
+ }
+#salchicha li{
+    font-family: Times, helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold; 
+    color: red;
+}
+#espagueti li{
+    font-family: Times, helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold; 
+    color: green;
+}
+#macarrones li{
+    font-family: Times, helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold; 
+    color: brown;
+}
+ol li{
+    font-family: Times, helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold; 
+    font-style: italic;
+}/*
